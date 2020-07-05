@@ -1,0 +1,68 @@
+
+/* contact me page  */
+#contact ul.social {
+  display: flex;
+}
+
+#contact ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+#contact .glow-effect {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #94bfbf;
+  color: black;
+  transition: 0.5s;
+}
+
+#contact .glow-effect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+#contact .glow-effect:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+#contact .glow-effect:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+@media screen and (max-width: 767px) {
+  #contact {
+    text-align: center !important;
+  }
+
+  #contact .social {
+    margin-bottom: 80px;
+    justify-content: center;
+  }
+}
+
+/* start of footer  */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

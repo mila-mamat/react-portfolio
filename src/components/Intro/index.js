@@ -8,7 +8,7 @@ function Intro() {
       <div class="container">
         <div class="row">
           <div class="col-md-6 p-md-5 order-md-2 text-center text-md-left">
-            <img src="./asset/img/mila.png" alt="mila"></img>
+            <img src="./assets/img/mila.png" alt="mila"></img>
           </div>
           <div class="col-md-6 y-center text-center text-md-right order-md-1">
             <h1><span class="color-green ">M</span>ILA</h1>
