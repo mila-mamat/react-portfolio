@@ -1,0 +1,60 @@
+
+/* start of into page  */
+#intro h1 {
+  margin-top: 30px !important;
+  font-weight: 800;
+  font-size: 20vw;
+  line-height: 0.9;
+  margin: 0;
+  opacity: 0;
+  animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+}
+
+#intro h4 {
+  /* font-weight: 800; */
+  font-size: 5vw;
+  margin: 0;
+  opacity: 0;
+  animation: 2s fadeIn cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+  animation-delay: 2s;
+}
+
+#intro img {
+  width: 70%;
+  height: auto;
+}
+
+
+/* Animation */
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media qurey section */
+@media screen and (min-width: 768px) {
+  #intro h1 {
+    font-size: 12vw;
+  }
+
+  #intro h4 {
+    font-size: 2vw;
+  }
+}
