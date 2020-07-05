@@ -9,7 +9,7 @@ function Projects() {
       <div class="container p-3 pt-md-5 px-lg-5">
         <h3 class="pt-5  m-md-3">RECENT PROJECTS</h3>
         <a href="https://github.com/mila-mamat?tab=repositories" class="btn btn-primary badge-pill px-3 mb-2"
-          target="_blank">View More</a>
+          target="_blank" rel="noopener noreferrer" >View More</a>
   
   
       </div>
@@ -19,11 +19,11 @@ function Projects() {
           <article class="col-md-6">
             <h4>Sharit</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/sharit.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/sharit.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://sharit-social-platform.herokuapp.com/" target="_blank"> View Demo </a></div>
-                <div><a href="https://github.com/mila-mamat/Project2-Sharit" target="_blank"> View Code </a></div>
+                <div><a href="https://sharit-social-platform.herokuapp.com/" target="_blank" rel="noopener noreferrer" > View Demo </a></div>
+                <div><a href="https://github.com/mila-mamat/Project2-Sharit" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>
@@ -48,11 +48,11 @@ function Projects() {
           <article class="col-md-6">
             <h4>Day Planner</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/planner.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/planner.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://jlbuster.github.io/JMK-Project/" target="_blank"> View Demo </a></div>
-                <div><a href="https://github.com/jlbuster/JMK-Project" target="_blank"> View Code </a></div>
+                <div><a href="https://jlbuster.github.io/JMK-Project/" target="_blank" rel="noopener noreferrer" > View Demo </a></div>
+                <div><a href="https://github.com/jlbuster/JMK-Project" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>
@@ -78,11 +78,11 @@ function Projects() {
           <article class="col-md-6">
             <h4>Burger Orders</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/burger.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/burger.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://burger-order-list.herokuapp.com/" target="_blank"> View Demo </a></div>
-                <div><a href="https://github.com/mila-mamat/h12-burger" target="_blank"> View Code </a></div>
+                <div><a href="https://burger-order-list.herokuapp.com/" target="_blank" rel="noopener noreferrer" > View Demo </a></div>
+                <div><a href="https://github.com/mila-mamat/h12-burger" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>
@@ -112,11 +112,11 @@ function Projects() {
           <article class="col-md-6">
             <h4>Note Taker</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/note-taker.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/note-taker.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://note-taking-app-with-node.herokuapp.com/" target="_blank"> View Demo </a></div>
-                <div><a href="https://github.com/mila-mamat/h10-note-taker" target="_blank"> View Code </a></div>
+                <div><a href="https://note-taking-app-with-node.herokuapp.com/" target="_blank" rel="noopener noreferrer" > View Demo </a></div>
+                <div><a href="https://github.com/mila-mamat/h10-note-taker" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>
@@ -141,10 +141,10 @@ function Projects() {
           <article class="col-md-6">
             <h4>Employee Tracker</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/employee-tracker.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/employee-tracker.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://github.com/mila-mamat/h11-employee-tracker" target="_blank"> View Code </a></div>
+                <div><a href="https://github.com/mila-mamat/h11-employee-tracker" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>
@@ -170,10 +170,10 @@ function Projects() {
           <article class="col-md-6">
             <h4>Employee Summary</h4>
             <div class="img-container">
-              <a href="#"><img src="./asset/img/employee-summary.png" alt="Article thumbnail" class="shadow" /></a>
+              <a href="#"><img src="./assets/img/employee-summary.png" alt="Article thumbnail" class="shadow" /></a>
               <div class="overlay"></div>
               <div class="buttons">
-                <div><a href="https://github.com/mila-mamat/h9-employee-summary" target="_blank"> View Code </a></div>
+                <div><a href="https://github.com/mila-mamat/h9-employee-summary" target="_blank" rel="noopener noreferrer" > View Code </a></div>
               </div>
             </div>
             <p>

@@ -34,7 +34,7 @@ function About() {
               <br />
               <br />
               <a type="button" class="btn btn-primary badge-pill px-3"
-                href="./assets/mila-mamat-resume.pdf" target="_blank">
+                href="./assets/mila-mamat-resume.pdf" target="_blank"> rel="noopener noreferrer"
                 View Full Resume
               </a>
             </p>
