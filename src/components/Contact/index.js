@@ -1,11 +1,7 @@
 import React from "react";
-import emailjs from "emailjs-com";
 import "./style.css";
 
 function Contact() {
-
-
- 
   return (
     <section class="pt-5 position-relative" id="contact">
       <div class="container p-md-5 px-lg-5">
